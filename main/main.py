@@ -142,7 +142,7 @@ if selected_exercise == 'Squats' and live_or_video == 'Video':
         st.write(result['knee_feedback'])
         st.write(result['toes_feedback'])
 
-# Add a horizontal line
+#Add a horizontal line
 st.markdown("<hr>", unsafe_allow_html=True)
 
 
@@ -171,4 +171,4 @@ if selected_exercise == 'Sit-ups' and live_or_video == 'Video':
 
         #Display the analysis results
         st.write(f"Overall Performance Score: {result['overall_score']:.2f}%")
-        # Add other feedback or results specific to Sit-ups
+
